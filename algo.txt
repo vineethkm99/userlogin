@@ -1,0 +1,33 @@
+Hello there fellas! I hope you’ve had enough of the front-end art. Now it’s time to go where all the the backend part starts. The part where you will get to know how various elements work in a website. The part where you will be able to create your very own way of making a website work, dealing with databases and what not!
+
+So here’s your very first assignment on PHP:
+
+Make a website containing a login registration form. It should have the following features:
+
+1.)  Link for Sign Up:
+Ask for all the information you feel is necessary like Name, E-mail, Phone No. etc
+Give them the feature to upload their profile pictures and if they don’t, give a default profile pic. based on their gender.
+Store all the information in MySQL database.
+Check for multiple Sign Ups from same E-mail or any field you feel that will be unique for a person.
+2.) Link for Sign In:
+a.) Take the username and password and if successful, take them to their home page
+                displaying their information in the most creative way you can think of.
+b.) If unsuccessful take show an error message.
+3.) Link for Forgot password:
+a.) Allow the user to change his password if forgot.
+
+All the validation processes are to taken care of with the help of JQuery. So the validation process will be easy to take care of for you. So focus on the main part of dealing with the databases and functioning of backend of your website.
+
+Bonus: Check for the valildity of the E-mail and Phone No. provided and if possible send the set password link to the E-mail of the person. 
+This part will be very beneficial to understand SMTP transmission and it is something that you won’t be able to do from localhost 
+(Well..not really, but the handling of E-mails and such things on localhost is very handy and 97% of the people don’t do it. )
+
+This assignment will help you familiarize with PHP, it’s POST and GET requests, Database Handling with MySQL, form validation using JQuery and other backend implementations used in a website. So do it sincerely as it is definitely gonna help you in the future.
+
+Deadline : 10th June, 2016
+
+You have ample of time for this assignment. So learn well and Happy Coding!
+
+Web Heads,
+Kshitij 2016-17
+Indian Institute of Technology, Kharagpur
