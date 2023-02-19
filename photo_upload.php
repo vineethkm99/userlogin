@@ -16,7 +16,7 @@ if(isset($_POST['submit'])) {
 	// process the form data
 	$tmp_file = $_FILES['file_upload']['tmp_name'];
 	$target_file = basename($_FILES['file_upload']['name']);
-  
+	$target_file = str_replace(' ', '_', $target_file);
 	$file_type = $_FILES['file_upload']['type'];
 	$allowed_files = array('image/png', 'image/jpeg', 'image/jpg', 'image/gif');
 	if(in_array($file_type, $allowed_files)){

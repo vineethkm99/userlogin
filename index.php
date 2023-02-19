@@ -31,6 +31,7 @@ if(!empty($row['profilepic'])){
 	<img src=<?php echo $ppsrc; ?> width = "150px" />
 	<br />
 	<p><a href="photo_upload.php">Update profile picture</a></p>
+	<p><a href="update_password.php">Click here to change your password</a></p>
 	<p><a href="logout.php">Click here to logout</a></p>
 </body>
 </html>

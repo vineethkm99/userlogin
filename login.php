@@ -39,6 +39,7 @@
 <body>
 	<?php 
 		if(!empty($msg)){
+			echo "<p>";
 			foreach ($msg as $key) {
 				echo $key."<br>";
 			}

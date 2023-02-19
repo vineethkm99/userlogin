@@ -17,12 +17,8 @@ if (isset($_POST['name'])) { // Form has been submitted.
 	$sql = "SELECT id FROM accounts WHERE email= '$email' OR mobile= '$mobile' ";
 	$q=$conn->prepare($sql);
 	$q->execute();
-	$i=0;
-	foreach($q->fetch(PDO::FETCH_ASSOC) as $row){
-		$i++;
-	}
 	// if no problems with db add to db
-	if($i==0){
+	if($q->rowCount()==0){
 		$sql = "INSERT INTO accounts (name, email, mobile , gender, hashed_pass)
 	    VALUES ('$name' , '$email', '$mobile' , '$gender' , '$hashed_pass')";
 	    // use exec() because no results are returned
